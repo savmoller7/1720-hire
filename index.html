@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Design | DWDD1720</title>
+
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+
+
+    <!-- OPEN GRAPH TAGS -->
+    <meta property="og:title" content="Hire Design | DWDD1720">
+    <meta property="og:description"
+        content="Connect with designers, explore creative work, and find your next design opportunity.">
+    <meta property="og:image" content="https://savmoller7.github.io/1720-hire/images/opengraph.jpg">
+    <meta property="og:url" content="https://savmoller7.github.io/1720-hire/">
+    <meta property="og:logo" content="https://savmoller7.github.io/1720-hire/images/logo.svg">
+    <meta property="og:type" content="website">
+
+
+    <!-- FAV ICON LINKS -->
+    <link rel="icon" type="image/png" href="/1720-hire/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/1720-hire/favicon.svg" />
+    <link rel="shortcut icon" href="/1720-hire/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/1720-hire/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Hire" />
+    <link rel="manifest" href="/1720-hire/site.webmanifest" />
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/year.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="140" height="50">
+        <button id="hamburger" class="hamburger" aria-label="Nav Link Button"></button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Candidates</a></li>
+            <li><a href="#">Employers</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="active"><a href="index.html">Apply</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Apply</h1>
+        <form action="results.html" method="get">
+            <label>First Name
+                <input type="text" name="first" required autocomplete="given-name" placeholder="First name">
+            </label>
+            <label>Last Name
+                <input type="text" name="last" required autocomplete="family-name" placeholder="Last name">
+            </label>
+            <label>
+                <input type="tel" name="phone" required autocomplete="tel" placeholder="801-274-2875">
+            </label>
+            <label>email
+                <input type="email" name="email" required autocomplete="email" placeholder="example@email.com">
+            </label>
+            <label>Portfolio URL
+                <input type="url" name="url" required autocomplete="url" placeholder="https://website.com">
+            </label>
+            <label>Applying As
+                <select name="who" required>
+                    <option value="Master">Master Designer</option>
+                    <option value="Apprentice">Apprentice Designer</option>
+                    <option value="Student">Student Designer</option>
+                    <option value="Employer">Employer</option>
+                </select>
+            </label>
+            <label>Comments
+                <textarea name="comments" rows="5" placeholder="Enter your message"></textarea>
+            </label>
+            <input type="submit" value="Apply Now">
+
+        </form>
+
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.youtube.com/@savannahmoller5223" target="_blank"><img src="images/icon-youtube.svg"
+                    alt="YouTube Icon" width="16" height="16"></a>
+            <a href="https://github.com/savmoller7" target="_blank"><img src="images/icon-github.svg" alt="GitHub Icon"
+                    width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/savannah-moller-494623241/" target="_blank"><img
+                    src="images/icon-linkedin.svg" alt="LinkedIn Icon" width="16" height="16"></a>
+            <a href="https://www.facebook.com/savvym000/" target="_blank"><img src="images/icon-facebook.svg"
+                    alt="Facebook Icon" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> &bull; Savannah Moller &bull; DWDD1720</p>
+    </footer>
+
+
+</body>
+
+</html>
