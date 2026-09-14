@@ -81,7 +81,7 @@ nav a:hover {
 
 nav li.active a {
     background-color: var(--color-grey-20);
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 nav.show {
